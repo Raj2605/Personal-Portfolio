@@ -22,3 +22,9 @@
 .zigzag .skill-box {
   margin-top: 20px; /* Create staggered effect */
 }
+
+.highlight {
+  background-color: rgba(241, 241, 236, 0.806); /* Highlight background color */
+  color: black; /* Text color */
+  font-weight: bold; /* Make the text bold (optional) */
+}

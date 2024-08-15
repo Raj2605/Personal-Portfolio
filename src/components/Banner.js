@@ -10,7 +10,7 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const [setIndex] = useState(1);
+  const [Index, setIndex] = useState(1);
   const toRotate = [ "Content Writer", "Content Specialist", "Content Strategist" ];
   const period = 2000;
 
@@ -56,12 +56,11 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Mansi Bhalothia`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Mansi Bhalothia`} </h1>
+                <br></br>
+                <p><b>I go by many titles—Content Writer, Content Specialist, Content Strategist—but <span className="highlight">'Storyteller'</span> is my favorite</b></p>
                   <p>I am passionate about creating content that resonates with the audience. I specialize in crafting unique content marketing campaigns that help organizations grow and expand their reach.
-                  Projects
-                  In my six years of professional experience, I’ve successfully led content and marketing projects for Cybersecurity, IT, SaaS, Fintech, and B2C firms. What you see below is just a glimpse of my journey. 
-
-                  However, if you do not find something that aligns with your specific needs, please don't hesitate to reach out. I am always eager to take on new challenges.</p>
+                  </p>
               </div>}
             </TrackVisibility>
           </Col>
