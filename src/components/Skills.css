@@ -1,0 +1,24 @@
+/* Skills.css */
+.skills-container {
+  background-color: #573b54ce; /* Light background color */
+  padding: 40px 20px; /* Padding around the skills section */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-top: 30px; /* Margin to separate from other content */
+  
+}
+
+
+
+.skill-box {
+  padding: 10px; /* Reduced padding to make boxes smaller */
+  margin-bottom: 10px; /* Reduced margin */
+  text-align: center;
+  border-radius: 5px;
+  font-size: 18px; /* Adjust font size as needed */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.zigzag .skill-box {
+  margin-top: 20px; /* Create staggered effect */
+}
