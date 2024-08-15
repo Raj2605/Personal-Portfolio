@@ -10,7 +10,7 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const [index, setIndex] = useState(1);
+  const [setIndex] = useState(1);
   const toRotate = [ "Content Writer", "Content Specialist", "Content Strategist" ];
   const period = 2000;
 
@@ -58,10 +58,10 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Mansi Bhalothia`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I am passionate about creating content that resonates with the audience. I specialize in crafting unique content marketing campaigns that help organizations grow and expand their reach.
-Projects
-In my six years of professional experience, I’ve successfully led content and marketing projects for Cybersecurity, IT, SaaS, Fintech, and B2C firms. What you see below is just a glimpse of my journey. 
+                  Projects
+                  In my six years of professional experience, I’ve successfully led content and marketing projects for Cybersecurity, IT, SaaS, Fintech, and B2C firms. What you see below is just a glimpse of my journey. 
 
-However, if you do not find something that aligns with your specific needs, please don't hesitate to reach out. I am always eager to take on new challenges.</p>
+                  However, if you do not find something that aligns with your specific needs, please don't hesitate to reach out. I am always eager to take on new challenges.</p>
               </div>}
             </TrackVisibility>
           </Col>

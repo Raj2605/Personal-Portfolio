@@ -48,6 +48,7 @@ export const Projects = () => {
                       <Row className="mb-4">
                       <Col md={4}>
                           <iframe 
+                          title="WhitePaper 1"
                             src="https://drive.google.com/file/d/1-m7vO7-zhvfYagOsc5kGAhGb9ohoVISL/preview"
                             width="100%"
                             height="300px"
@@ -58,6 +59,7 @@ export const Projects = () => {
                         </Col>
                       <Col md={4}>
                           <iframe 
+                          title="WhitePaper 2"
                             src="https://drive.google.com/file/d/1HfKVYAXeBI_eYZ_y9vWU4wMJNUZ4bvSp/preview"
                             width="100%"
                             height="300px"
@@ -68,6 +70,7 @@ export const Projects = () => {
                         </Col>
                       <Col md={4}>
                           <iframe 
+                          title="WhitePaper 3"
                             src="https://drive.google.com/file/d/1itgRBQTKAuTRDaPdflDGOxtTIZwvRU22/preview"
                             width="100%"
                             height="300px"
@@ -80,6 +83,7 @@ export const Projects = () => {
                         <Row className="mb-4">
                         <Col md={4}>
                           <iframe 
+                          title="WhitePaper 4"
                             src="https://drive.google.com/file/d/1_HF8KAfd6nj2DsU0xvX-Dql3v_MXlus3/preview"
                             width="100%"
                             height="300px"
@@ -90,6 +94,7 @@ export const Projects = () => {
                         </Col>
                         <Col md={4}>
                           <iframe 
+                          title="WhitePaper 5"
                             src="https://drive.google.com/file/d/1oL3n9J13_-TQhR_v-YNSBi-lVvIaliBI/preview"
                             width="100%"
                             height="300px"
@@ -100,6 +105,7 @@ export const Projects = () => {
                         </Col>
                         <Col md={4}>
                           <iframe 
+                          title="WhitePaper 6"
                             src="https://drive.google.com/file/d/1K58wgw80bm1dD8BFkSKCbZgzvH9L4IgM/preview"
                             width="100%"
                             height="300px"
@@ -182,6 +188,7 @@ export const Projects = () => {
                       <Row>
                         <Col md={4}>
                           <iframe 
+                          title="Case Study 1"
                             src="https://drive.google.com/file/d/1TM-x5H1PG0Yg5BJu-T0N8N8FBphPHmmY/preview"
                             width="100%"
                             height="300px"
@@ -192,6 +199,7 @@ export const Projects = () => {
                         </Col>
                         <Col md={4}>
                           <iframe 
+                          title="Case Study 2"
                             src="https://drive.google.com/file/d/1Q-Dt90Qphmj0IQ0jSBHI3QUm3p-rbhGy/preview"
                             width="100%"
                             height="300px"
@@ -202,6 +210,7 @@ export const Projects = () => {
                         </Col>
                         <Col md={4}>
                           <iframe 
+                          title="Case Study 3"
                             src="https://drive.google.com/file/d/1v5FBJ4_GzH-QIZVxaW80eu5yeQ26i_Ci/preview"
                             width="100%"
                             height="300px"
@@ -216,6 +225,7 @@ export const Projects = () => {
                       <Row>
                         <Col md={4}>
                           <iframe 
+                          title="Press-Release"
                             src="https://drive.google.com/file/d/1Iezua6t1vz3JtXaVF3MCWLjXIwtvZYbU/preview"
                             width="100%"
                             height="300px"
@@ -239,7 +249,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt="colorsharp"></img>
     </section>
   )
 }
