@@ -10,9 +10,10 @@ import financeOP from "../assets/img/financeOP.jpg"
 import Cloud from "../assets/img/Cloud.jpg"
 import PowerBi from "../assets/img/PowerBi.jpg"
 import Flutter from "../assets/img/Flutter.jpg"
-import Python from "../assets/img/Python.jpg"
-import Vue from "../assets/img/Vue.jpg"
+import fiveway from "../assets/img/fiveway.jpg"
+import Firewall from "../assets/img/Firewall.jpg"
 import PR from "../assets/img/PR.jpg"
+import DNS from "../assets/img/DNS.jpg"
 
 export const Projects = () => {
 
@@ -172,16 +173,22 @@ export const Projects = () => {
                       <h4>Best Flutter Widgets for App Development</h4>
                         </Col>
                         <Col md={4}>
-                        <a href="https://www.clariontech.com/blog/python-for-predictive-maintenance-in-manufacturing" target="_blank" rel="noopener noreferrer">
-                        <img src={Python} alt="Blog 4" style={{ width: '100%' , height: 'auto' }} />
+                        <a href="https://www.eccouncil.org/cybersecurity-exchange/network-security/how-to-prevent-network-security-attacks/" target="_blank" rel="noopener noreferrer">
+                        <img src={fiveway} alt="Blog 4" style={{ width: '100%' , height: 'auto' }} />
                       </a>
-                      <h4>How to use Python for Predictive Maintenance in Manufacturing</h4>
+                      <h4>Five Ways to Defend Against Network Security Threats</h4>
                         </Col>
                         <Col md={4}>
-                        <a href="https://www.clariontech.com/blog/best-vuejs-frameworks-for-app-development" target="_blank" rel="noopener noreferrer">
-                        <img src={Vue} alt="Blog 5" style={{ width: '100%' , height: 'auto' }} />
+                        <a href="https://www.eccouncil.org/cybersecurity-exchange/network-security/firewall-security-guide-concerns-capabilities-limitations/" target="_blank" rel="noopener noreferrer">
+                        <img src={Firewall} alt="Blog 5" style={{ width: '100%' , height: 'auto' }} />
                       </a>
-                      <h4>Best Vue.js Frameworks to Boost Your App Development Experience</h4>
+                      <h4>A Guide to Firewall Security: Concerns, Capabilities, and Limitations</h4>
+                        </Col>
+                        <Col md={4}>
+                        <a href="https://www.eccouncil.org/cybersecurity-exchange/network-security/what-is-dns-hijacking-how-to-prevent-dns-attacks/" target="_blank" rel="noopener noreferrer">
+                        <img src={DNS} alt="Blog 6" style={{ width: '100%' , height: 'auto' }} />
+                      </a>
+                      <h4>A Guide to Firewall Security: Concerns, Capabilities, and Limitations</h4>
                         </Col>
                       </Row>
                     </Tab.Pane>
